@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height:35vw;
+    width: 100%;
+    margin: 0;
+    margin-top: 6vw;
+}
+.nexus-pic{
+    height: 100%;
+    background-image: url('../images/WEI-Hands-Banner-Size-2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-attachment: fixed;
+    display: inline-block;
+}
+.tag-line{
+    
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+.tag-line .tag-content{
+    position: absolute;
+    display: inline-block;
+    height: 40%;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    padding: 1%;
+    font-size: 4vw;
+    font-family: 'Satisfy', cursive;
+    color:rgb(196, 15, 51);
+}
+.line1{
+    margin-left: -25vw;
+}
+.line2{
+    margin-left: -15vw;
+}
+.box{
+    height: 30vw;
+    position:relative;
+}
+.matter{
+    font-family: 'EB Garamond', serif;
+    border: 0.1vw crimson solid;
+    border-radius: 2%;
+    padding: 4%;
+    position: absolute;
+    height: 80%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.matter a{
+    color:crimson;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5vw;
+}
+.matter a:hover{
+    color: rgb(180, 10, 44);
+    text-decoration: none;
+}
+.matter .sub-head{
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0.4vw;
+}
+.matter p{
+    font-size: 1.2vw;
+    margin: 0.4vw;
+}
+.matter input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 0.1vw solid black;
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+.pic1{
+    height: 30vw;
+    position:relative;
+    
+}
+.pic1 .x{
+    height: 80%;
+    width: 100%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.pic1 .x img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+@media only screen and (max-width:768px){
+    .nexus-pic{
+        height: 29vw;
+        background-image: url('../images/WEI-Hands-Banner-Size-2.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: auto;
+        background-attachment: fixed;
+        display: inline-block;
+    }
+    .tag-line{
+        
+        height: 29vw;
+        display: inline-block;
+        position: relative;
+    }
+    .line1{
+        margin-left: 10vw;
+    }
+    .line2{
+        margin-left: 25vw;
+    }
+    .main{
+        height:58vw;
+        width: 100%;
+        margin: 0;
+        margin-top: 6vw;
+    }
+    .pic1{
+        height: 55vw;
+        position:relative;
+        
+    }
+    .pic1 .x{
+        height: 80%;
+        width: 60%;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .box{
+        height: 55vw;
+        position:relative;
+    }
+    .matter{
+        font-family: 'EB Garamond', serif;
+        border: 0.1vw crimson solid;
+        border-radius: 2%;
+        padding: 4%;
+        position: absolute;
+        height: 44vw;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .matter a{
+        color:crimson;
+        font-family: 'Satisfy', cursive;
+        font-size: 4.5vw;
+    }
+    .matter .sub-head{
+        font-size: 2.2vw;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        margin: 0.4vw;
+    }
+    .matter p{
+        font-size: 2.2vw;
+        margin: 0.4vw;
+    }
+    .matter input{
+        width: 100%;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 0.1vw solid black;
+        font-size: 2.2vw;
+        margin-top: 0;
+    }
+}
