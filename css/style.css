@@ -58,7 +58,7 @@ header{
     font-family: 'Poppins', sans-serif;
     margin:0;
 }
-.intro .who{
+.who{
     margin:0;
 }
 .nav-div{
@@ -478,7 +478,25 @@ header{
         color:rgb(211, 174, 27);
     }
 }
+/*CV*/
 
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cv a{
+    padding: 1.5vw;
+    font-size: 2vw;
+    border: rgba(245, 217, 108,1) 0.2vw solid;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+}
+.cv a:hover{
+    color: rgba(245, 217, 108,1);
+    text-decoration: none;
+}
 
 
 /*Contact*/
